@@ -1,0 +1,7 @@
+API_KEY_url = '25eab58e3f5cc717d5529391d5fd3458e200c'
+
+import requests
+import urllib
+
+
+# Combined two apis

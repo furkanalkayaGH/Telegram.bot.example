@@ -1,3 +1,4 @@
+
 import yfinance as yf
 import telebot
 
@@ -43,6 +44,9 @@ def get_stocks(message):
     response += "\nStock Data"
     print(response)
     bot.send_message(message.chat.id, response)
+
+
+
 
 
 bot.polling()
