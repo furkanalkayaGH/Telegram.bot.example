@@ -4,6 +4,10 @@ import telebot
 API_KEY = '5565330019:AAEGRW5MZ4TDo-TbTKoWgA-cPsWReYPr9Mw'
 bot = telebot.TeleBot(API_KEY)
 
+@bot.message_handler(commands=['Hi'])
+def hi(message):
+    bot.reply_to(message, 'Hi :)')
+
 
 @bot.message_handler(commands=['Greet'])
 def greet(message):
