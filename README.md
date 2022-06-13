@@ -1,4 +1,4 @@
-# Telegram.bot.example 
+# Telegram Bot Example 
 
 
 This program uses Telegram and by using link shortener API from Cuttly, it can convert your long URL's to a short one
